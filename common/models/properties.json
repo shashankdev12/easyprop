@@ -1,0 +1,84 @@
+{
+  "name": "properties",
+  "plural": "properties",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "required": true
+    },
+    "state_id": {
+      "type": "number",
+      "required": true
+    },
+    "country_id": {
+      "type": "number",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "availabilty": {
+      "type": "number",
+      "required": true
+    },
+    "imageM1": {
+      "type": "string"
+    },
+    "imageM2": {
+      "type": "string"
+    },
+    "imageM3": {
+      "type": "string"
+    },
+    "imageM4": {
+      "type": "string"
+    },
+    "imageM5": {
+      "type": "string"
+    },
+    "imageT1": {
+      "type": "string"
+    },
+    "imageT2": {
+      "type": "string"
+    },
+    "imageT3": {
+      "type": "string"
+    },
+    "imageT4": {
+      "type": "string"
+    },
+    "imageT5": {
+      "type": "string"
+    },
+    "property_type": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "number",
+      "required": true
+    },
+    "created": {
+      "type": "date",
+      "required": true
+    },
+    "modified": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

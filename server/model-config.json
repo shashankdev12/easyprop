@@ -13,6 +13,9 @@
       "./mixins"
     ]
   },
+  "Email": {
+    "dataSource": "EmailDataSource"
+  },
   "User": {
     "dataSource": "db",
     "public": false
@@ -37,6 +40,18 @@
     "public": false
   },
   "users": {
+    "dataSource": "db",
+    "public": true
+  },
+  "properties": {
+    "dataSource": "db",
+    "public": true
+  },
+  "countries": {
+    "dataSource": "db",
+    "public": true
+  },
+  "states": {
     "dataSource": "db",
     "public": true
   }

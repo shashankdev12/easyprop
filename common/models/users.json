@@ -39,6 +39,9 @@
     "type": {
       "type": "number"
     },
+    "forgotLink": {
+      "type": "string"
+    },
     "status": {
       "type": "number"
     },
@@ -47,9 +50,7 @@
     }
   },
   "validations": [],
-  "relations": {
-
-  },
+  "relations": {},
   "acls": [
     {
       "principalType": "ROLE",
@@ -62,6 +63,24 @@
       "principalId": "$everyone",
       "permission": "ALLOW",
       "property": "saveUserInfo"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "userlogin"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "changePassword"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "forgotPassword"
     }
   ],
   "methods": {}

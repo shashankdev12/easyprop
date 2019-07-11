@@ -7,5 +7,24 @@
     "name": "db",
     "connector": "mysql",
     "user": "root"
+  },
+  "EmailDataSource": {
+    "name": "EmailDataSource",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "SMTP",
+        "host": "smtp.gmail.com",
+        "secure": false,
+        "port": 587,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "himgiriadventurechopta@gmail.com",
+          "pass": "abhishek@12!"
+        }
+      }
+    ]
   }
 }
